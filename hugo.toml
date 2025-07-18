@@ -1,6 +1,6 @@
 baseURL = 'https://tabasku.github.io/'
 languageCode = 'en-us'
-title = 'Joni\'s blog'
+title = 'Joni’s blog'
 theme = 'basic'
 
 [params]
