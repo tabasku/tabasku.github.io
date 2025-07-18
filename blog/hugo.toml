@@ -1,0 +1,22 @@
+baseURL = 'https://tabasku.github.io/'
+languageCode = 'en-us'
+title = 'My Hugo Blog'
+theme = 'basic'
+
+[params]
+    author = "Your Name"
+    description = "A personal blog built with Hugo"
+    
+[menu]
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Posts"
+        url = "/posts/"
+        weight = 2
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 3
