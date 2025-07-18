@@ -2,7 +2,7 @@
 title = 'Self-hosting'
 date = 2025-07-18T08:09:16Z
 draft = false
-tags = self-hosting
+tags = ['self-hosting']
 +++
 # Self-hosting
 
