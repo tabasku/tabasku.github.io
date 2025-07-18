@@ -6,18 +6,12 @@ draft = false
 
 # About Me
 
-Welcome to my blog! I'm passionate about technology, writing, and sharing knowledge with others.
+Welcome to my blog! I'm passionate about sysadmin stuff. I keep tracking things I have learn't and want to learn next. This page acts also as my personal documentation space.
 
 ## What You'll Find Here
 
 This blog covers topics including:
-- Technology and programming
-- Personal experiences and insights
-- Tutorials and guides
-- Random thoughts and musings
+- Self-hosting
+- FreeBSD, Linux etc
+- Containers, Cloud, DevOops stuff
 
-## Get In Touch
-
-Feel free to reach out if you have any questions or just want to chat!
-
-Thanks for stopping by!

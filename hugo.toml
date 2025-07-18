@@ -1,11 +1,11 @@
 baseURL = 'https://tabasku.github.io/'
 languageCode = 'en-us'
-title = 'My Hugo Blog'
+title = 'Joni\'s blog'
 theme = 'basic'
 
 [params]
-    author = "Your Name"
-    description = "A personal blog built with Hugo"
+    author = "Joni Kurunsaari"
+    description = "Blogging about stuff I want to learn and remember"
     
 [menu]
     [[menu.main]]
