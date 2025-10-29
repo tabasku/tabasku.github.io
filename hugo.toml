@@ -1,8 +1,7 @@
 baseURL = 'https://tabasku.github.io/'
 languageCode = 'en-us'
-title = 'Joni’s blog'
-theme = 'typo'
-colorPalette = 'default'
+title = 'Joni's blog'
+theme = 'terminal'
 
 [taxonomies]
 tag = 'tags'
@@ -11,36 +10,11 @@ tag = 'tags'
     author = "Joni Kurunsaari"
     description = "Blogging about stuff I want to learn and remember"
 
-# Appearance settings
-theme = 'auto'
-colorPalette = 'default'
-hideHeader = false
-
-# Intro on main page, content in markdown
-homeIntroTitle = 'Moi!'
-homeIntroContent = """
-Blogging about stuff I want to learn and remember
-"""
-
-singleDateFormat = '2 Jan 2006'
-
-# Collection to display on home
-# homeCollectionTitle = 'Posts'
-# homeCollection = 'posts'
-
-# Lists parameters
-paginationSize = 100
-listSummaries = true
-listDateFormat = '02 Jan 2006'
-
-# Footer
-showFooter = false
-
-# Breadcrumbs
-[params.breadcrumbs]
-enabled = true
-showCurrentPage = true
-home = "~"
+    # Terminal theme settings
+    contentTypeName = "posts"
+    showMenuItems = 3
+    fullWidthTheme = false
+    centerTheme = false
 
 # Social icons
 [[params.social]]
@@ -52,31 +26,27 @@ name = "github"
 url = "https://github.com/tabasku"
 
 # Main menu pages
-# [[params.menu]]
-# name = "home"
-# url = "/"
-
-[[params.menu]]
-name = "posts"
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
 url = "/posts"
 
-[[params.menu]]
-name = "about"
+[[menu.main]]
+identifier = "about"
+name = "About"
 url = "/about"
 
-[[params.menu]]
-name = "library"
+[[menu.main]]
+identifier = "library"
+name = "Library"
 url = "/library"
-
-# [[params.menu]]
-# name = "tags"
-# url = "/tags"
 
 
 # Syntax highlight on code blocks
+# Required for Terminal theme and Chroma highlighting
 [markup]
 [markup.highlight]
-style = 'bw'
+noClasses = false
 
 # Deploy settings
 
